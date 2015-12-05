@@ -1,0 +1,28 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\Administrator.PRC-20150313YWM\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@3.5.0
+3 info using node@v4.2.2
+4 verbose stack Error: Cannot find module 'lodash.repeat'
+4 verbose stack     at Function.Module._resolveFilename (module.js:337:15)
+4 verbose stack     at Function.Module._load (module.js:287:25)
+4 verbose stack     at Module.require (module.js:366:17)
+4 verbose stack     at require (module.js:385:17)
+4 verbose stack     at Object.<anonymous> (C:\Users\Administrator.PRC-20150313YWM\AppData\Roaming\npm\node_modules\npm\node_modules\npm-install-checks\node_modules\npmlog\node_modules\gauge\node_modules\lodash.padright\node_modules\lodash._createpadding\index.js:9:14)
+4 verbose stack     at Module._compile (module.js:435:26)
+4 verbose stack     at Object.Module._extensions..js (module.js:442:10)
+4 verbose stack     at Module.load (module.js:356:32)
+4 verbose stack     at Function.Module._load (module.js:311:12)
+4 verbose stack     at Module.require (module.js:366:17)
+4 verbose stack     at require (module.js:385:17)
+5 verbose cwd f:\WS\nodejs\testNode
+6 error Windows_NT 10.0.10240
+7 error argv "C:\\Program Files (x86)\\nodejs\\node.exe" "C:\\Users\\Administrator.PRC-20150313YWM\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "install"
+8 error node v4.2.2
+9 error npm  v3.5.0
+10 error code MODULE_NOT_FOUND
+11 error Cannot find module 'lodash.repeat'
+12 error If you need help, you may report this error at:
+12 error     <https://github.com/npm/npm/issues>
+13 verbose exit [ 1, true ]
